@@ -41,7 +41,7 @@ namespace RobotsCollector
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(23, 77);
+            this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(170, 334);
             this.listBox1.TabIndex = 0;
@@ -50,14 +50,14 @@ namespace RobotsCollector
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 15;
-            this.listBox2.Location = new System.Drawing.Point(212, 77);
+            this.listBox2.Location = new System.Drawing.Point(188, 12);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(170, 334);
             this.listBox2.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(425, 447);
+            this.button1.Location = new System.Drawing.Point(454, 352);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -69,9 +69,9 @@ namespace RobotsCollector
             // 
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 15;
-            this.listBox3.Location = new System.Drawing.Point(414, 77);
+            this.listBox3.Location = new System.Drawing.Point(364, 12);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(369, 334);
+            this.listBox3.Size = new System.Drawing.Size(246, 334);
             this.listBox3.TabIndex = 4;
             // 
             // label1
@@ -84,7 +84,7 @@ namespace RobotsCollector
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(674, 447);
+            this.button2.Location = new System.Drawing.Point(535, 352);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -94,17 +94,21 @@ namespace RobotsCollector
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 523);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(628, 388);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.Text = "Robots Collector to Wordlist Creator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
